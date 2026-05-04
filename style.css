@@ -408,6 +408,12 @@ bottom: auto;
     gap: 12px; /* Espaçamento ligeiramente menor no mobile */
   }
 
+  .hero-course-card .btn-small {
+     margin-top: 15px; /* Adiciona um espaço acima do botão para ele não colar no texto */
+     align-self: center; /* Centraliza o botão horizontalmente no layout de coluna */
+     width: auto; /* Garante que o botão tenha apenas a largura necessária (caso tenha colocado 100% antes) */
+  }
+
   .hero-highlights{
     justify-content:center;
     gap:12px;
